@@ -1,0 +1,167 @@
+body,
+body * {
+  border: 0;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+}
+img {
+  border: 0;
+}
+
+button,
+div,
+img,
+svg,
+video {
+  position: absolute;
+}
+
+#main_container {
+  position: absolute;
+  background-color: #82c8fd;
+  border: 1px solid #000000;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 160px;
+  height: 600px;
+}
+
+#main_content {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  width: 160px;
+  height: 600px;
+}
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
+#default_exit {
+  top: -1px;
+  left: -1px;
+  width: 160px;
+  height: 600px;
+  z-index: 500;
+  cursor: pointer;
+}
+
+:focus {
+  outline: 0;
+}
+
+::-moz-focus-inner {
+  border: 0;
+}
+
+/* Custom Styling */
+
+/* Fonts */
+@font-face {
+  font-family: "ESKlarheitGrotesk Smbd";
+  src: url("./fonts/ESKlarheitGrotesk-Smbd.woff");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "ESKlarheitGrotesk Xbd";
+  src: url("./fonts/ESKlarheitGrotesk-Xbd.woff");
+  font-weight: normal;
+}
+
+
+/* Text */
+
+#text_holder {
+  color: #0000aa;
+  font-family: "ESKlarheitGrotesk Xbd";
+  font-size: 30px;
+  line-height: 32px;
+  letter-spacing: -1px;
+}
+#h1,
+#h2,
+#h3 {
+  width: 160px;
+  left: 9px;
+  top: 191px;
+}
+#h2{
+  top: 196px;
+  font-size: 21.5px;
+  line-height: 25.8px;
+  letter-spacing: -0.7px;
+}
+#h2 span{
+  letter-spacing: -0.3px;
+}
+
+#endframeBg {
+  position: absolute;
+  top: 449px;
+  height: 600px;
+  width: 100%;
+  background: #FFFFFF;
+}
+
+#pinkRibbon {
+  position: relative;
+  top: 0px;
+  height: 10px;
+  width: 100%;
+  background: #dc7bff;
+}
+
+#blueBottomCard {
+  background-color: #0000aa;
+  width: 160px;
+  height: 141px;
+  left: 0px;
+  bottom: 0;
+}
+
+#logo {
+  width: 95px;
+  height: auto;
+  left: 33px;
+  bottom: 71px;
+  position: absolute;
+  z-index: 11;
+}
+
+#cta {
+  width: 85px;
+  height: 22.99px;
+  bottom: 55px;
+  left: 38px;
+  background-color: #fff;
+  border-radius: 4px;
+  font-family: "ESKlarheitGrotesk Smbd";
+  color: #0000aa;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.terms{
+  color: #fff;
+  font-family: "ESKlarheitGrotesk Smbd";
+  font-size: 7.3px;
+  line-height: 7px;
+  letter-spacing: -0.02em;
+  left: 15px;
+  width: 600px;
+  bottom: 26px;
+  z-index: 11;
+}
+.window{
+  width: 160px;
+  height: 600px;
+  z-index: -1;
+}

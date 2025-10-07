@@ -1,0 +1,167 @@
+body,
+body * {
+  border: 0;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+}
+img {
+  border: 0;
+}
+
+button,
+div,
+img,
+svg,
+video {
+  position: absolute;
+}
+
+#main_container {
+  position: absolute;
+  background-color: #86baf7;
+  border: 1px solid #000000;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 300px;
+  height: 600px;
+}
+
+#main_content {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  width: 300px;
+  height: 600px;
+}
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
+#default_exit {
+  top: -1px;
+  left: -1px;
+  width: 300px;
+  height: 600px;
+  z-index: 500;
+  cursor: pointer;
+}
+
+:focus {
+  outline: 0;
+}
+
+::-moz-focus-inner {
+  border: 0;
+}
+
+/* Custom Styling */
+
+/* Fonts */
+@font-face {
+  font-family: "ESKlarheitGrotesk Smbd";
+  src: url("./fonts/ESKlarheitGrotesk-Smbd.woff");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "ESKlarheitGrotesk Xbd";
+  src: url("./fonts/ESKlarheitGrotesk-Xbd.woff");
+  font-weight: normal;
+}
+
+
+/* Text */
+
+#text_holder {
+  color: #0000aa;
+  font-family: "ESKlarheitGrotesk Xbd";
+  font-size: 46.2px;
+  line-height: 47.7px;
+  letter-spacing: -1px;
+}
+#h1,
+#h2,
+#h3 {
+  width: 300px;
+  left: 15px;
+  top: 107px;
+}
+#h2{
+  top: 138px;
+  font-size: 30px;
+  line-height: 35.6px;
+  letter-spacing: -0.7px;
+}
+#h2 span{
+  letter-spacing: -0.3px;
+}
+
+#endframeBg {
+  position: absolute;
+  top: 453px;
+  height: 600px;
+  width: 100%;
+  background: #FFFFFF;
+}
+
+#pinkRibbon {
+  position: relative; 
+  top: 0;
+  height: 10px;
+  width: 100%; 
+  background: #dc7bff;
+}
+
+#blueBottomCard {
+  background-color: #0000aa;
+  width: 300px;
+  height: 137px;
+  left: 0px;
+  position: absolute;
+  bottom: 0;
+}
+
+#logo {
+  width: 100px;
+  height: auto;
+  right: 17px;
+  bottom: 75px;
+  position: absolute;
+  z-index: 11;
+}
+
+#cta {
+  width: 107.7px;
+  height: 29.13px;
+  bottom: 81px;
+  left: 176px;
+  background-color: #fff;
+  border-radius: 4px;
+  font-family: "ESKlarheitGrotesk Smbd";
+  color: #0000aa;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.terms{
+  color: #fff;
+  font-family: "ESKlarheitGrotesk Smbd";
+  font-size: 7.3px;
+  line-height: 7px;
+  letter-spacing: -0.02em;
+  left: 16px;
+  width: 600px;
+  bottom: 35px;
+  z-index: 11;
+}
+.window{
+  width: 300px;
+  height: 600px;
+}
